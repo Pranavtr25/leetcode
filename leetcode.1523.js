@@ -1,3 +1,4 @@
+// 1523. Count Odd Numbers in an Interval Range
 var countOdds = function (low, high) {
     if ((high - low) % 2 !== 0) {
         return Math.ceil((high - low)/2)
