@@ -1,0 +1,14 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "leetcode-1450.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
