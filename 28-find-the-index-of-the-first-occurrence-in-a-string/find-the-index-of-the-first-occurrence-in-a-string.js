@@ -17,8 +17,7 @@ var strStr = function (haystack, needle) {
                 }
             }
             if (flag) {
-                index = firstIndex
-                return index
+                return firstIndex
             }
         }
     }
