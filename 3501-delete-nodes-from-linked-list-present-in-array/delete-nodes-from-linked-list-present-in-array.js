@@ -12,11 +12,6 @@
  */
 var modifiedList = function (nums, head) {
 
-    function ListNode(val, next) {
-        this.val = (val === undefined ? 0 : val)
-        this.next = (next === undefined ? null : next)
-    }
-
     function deleteNodes(nums, list) {
         nums = new Set(nums)
         let dummy = new ListNode(0)
