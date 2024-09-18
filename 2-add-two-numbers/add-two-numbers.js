@@ -22,17 +22,14 @@ var addTwoNumbers = function (l1, l2) {
             list = new ListNode((curr1.val + curr2.val) % 10)
             bal = Math.floor((curr1.val + curr2.val) / 10)
             curr = list
-            count++;
-            curr1 = curr1?.next
-            curr2 = curr2?.next
         } else {
             curr.next = new ListNode((curr1?.val + curr2?.val + bal) % 10)
             bal = Math.floor((curr1?.val + curr2?.val + bal) / 10)
             curr = curr?.next
-            count++;
-            curr1 = curr1?.next
-            curr2 = curr2?.next
         }
+        count++;
+        curr1 = curr1?.next
+        curr2 = curr2?.next
     }
     while (curr1?.val !== undefined) {
         curr.next = new ListNode((curr1.val + bal) % 10)
