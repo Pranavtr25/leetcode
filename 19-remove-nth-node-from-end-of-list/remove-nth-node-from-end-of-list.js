@@ -18,9 +18,7 @@ var removeNthFromEnd = function(head, n) {
         curr1 = curr1.next;
     }
     count++;
-    if(count === 1){
-        return null
-    }
+    
     let removeCount = 0;
     let curr2 = head
     let node = new ListNode(0, head);
