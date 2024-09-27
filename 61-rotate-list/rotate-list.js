@@ -21,11 +21,9 @@ var rotateRight = function(head, k) {
         return head
     }
     let limit = k % size
-    console.log(size)
     if(limit === 0){
         return head
     }
-    // return 
     let count = 0;
     let res = null;
     while(count < limit){
