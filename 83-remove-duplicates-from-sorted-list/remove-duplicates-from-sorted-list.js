@@ -10,7 +10,7 @@
  * @return {ListNode}
  */
 var deleteDuplicates = function(head) {
-    let dummy = new ListNode(Infinity,head)
+    let dummy = new ListNode("dummy",head)
     let prev = dummy
     let curr = head
     while(curr){
